@@ -1,6 +1,0 @@
-# Configuración para prueba con subdirectorio
-baseurl: "/encuentro-2025"
-url: "https://manureta.github.io"
-
-# Override para prueba
-environment: test

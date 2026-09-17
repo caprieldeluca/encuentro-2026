@@ -5,13 +5,8 @@ title: "Encuentro OSM Argentina 2026"
 description: "Encuentro de la Comunidad de OpenStreetMap de Argentina - 17 de octubre de 2026, Hub de Innovación de la Municipalidad de Pergamino"
 
 # Environment-based configuration
-baseurl: "" # default for custom domain
-url: "https://encuentro2026.openstreetmap.org.ar" # custom domain
-
-# GitHub Pages environment override
-github_pages:
-  baseurl: "/encuentro-2026"
-  url: "https://osm-ar.github.io"
+baseurl: "" # custom domain (ver CNAME)
+url: "https://encuentro2026.openstreetmap.org.ar"
 
 # Performance and SEO
 timezone: "America/Argentina/Buenos_Aires"
