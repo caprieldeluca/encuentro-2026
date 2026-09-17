@@ -1,0 +1,30 @@
+{% assign s = include.sponsor %}
+<div class="sponsor-flip-card invitation-card">
+  <div class="sponsor-flip-inner">
+    <div class="sponsor-flip-front invitation-front">
+      <div class="invitation-icon">{{ s.icon }}</div>
+      <h4>{{ s.question }}</h4>
+      <p><strong>{{ s.subtitle }}</strong></p>
+      <div class="flip-hint">¡Sumate al encuentro!</div>
+    </div>
+    <div class="sponsor-flip-back invitation-back">
+      <div class="back-header">
+        <div class="invitation-icon small">{{ s.icon }}</div>
+        <h4>{{ s.subtitle }}</h4>
+      </div>
+      <div class="sponsor-details">
+        <p><strong>{{ s.detail_label }}:</strong> {{ s.detail_value }}</p>
+        <ul>
+          {% for item in s.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        <div class="sponsor-metric">
+          <a href="{{ site.links.wiki }}" target="_blank" class="external-link">
+            {{ s.link_text }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

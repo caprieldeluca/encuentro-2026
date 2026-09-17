@@ -1,0 +1,10 @@
+{% assign c = include.categoria %}
+<div class="sponsor-item {{ c.class }}">
+  <h4>{{ c.icon }} {{ c.title }}</h4>
+  <p><strong>{{ c.subtitle }}</strong></p>
+  <ul>
+    {% for item in c.items %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</div>

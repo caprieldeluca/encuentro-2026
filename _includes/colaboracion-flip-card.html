@@ -1,0 +1,26 @@
+{% assign c = include.categoria %}
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <div class="card-icon">{{ c.icon }}</div>
+      <h4>{{ c.title }}</h4>
+      <p>{{ c.subtitle }}</p>
+      <div class="flip-hint">Haz clic para más info</div>
+    </div>
+    <div class="flip-card-back">
+      <h4>{{ c.icon }} {{ c.title }}</h4>
+      <div class="card-details">
+        <h5>{{ c.detail_heading }}</h5>
+        <ul>
+          {% for item in c.detail_items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        <div class="impact-metric">
+          <span class="metric-number">{{ c.metric_number }}</span>
+          <span class="metric-label">{{ c.metric_label }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

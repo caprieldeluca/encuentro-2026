@@ -1,0 +1,32 @@
+- icon: "🚀"
+  question: "¿Empresa Tecnológica?"
+  subtitle: "Sponsor Técnico"
+  detail_label: "Beneficios"
+  detail_value: "Visibilidad en comunidad OSM"
+  items:
+    - "📱 Logo en sitio web"
+    - "🎤 Espacio para charla técnica"
+    - "🌐 Networking con desarrolladores"
+  link_text: "📧 Contactar para auspiciar"
+
+- icon: "🏛️"
+  question: "¿Organismo Público?"
+  subtitle: "Sponsor Institucional"
+  detail_label: "Beneficios"
+  detail_value: "Colaboración comunidad-estado"
+  items:
+    - "🤝 Casos de éxito documentados"
+    - "📊 Presentación de proyectos"
+    - "👥 Red de contactos técnicos"
+  link_text: "📧 Contactar para colaborar"
+
+- icon: "🎓"
+  question: "¿Universidad/Centro?"
+  subtitle: "Sponsor Académico"
+  detail_label: "Beneficios"
+  detail_value: "Investigación y educación"
+  items:
+    - "📚 Contenido académico"
+    - "🔬 Casos de estudio"
+    - "👨‍🎓 Networking estudiantes"
+  link_text: "📧 Contactar para participar"
