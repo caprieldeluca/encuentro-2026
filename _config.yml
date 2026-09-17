@@ -1,0 +1,119 @@
+# Encuentro OSM Argentina 2026 - Jekyll Configuration
+
+# Site settings
+title: "Encuentro OSM Argentina 2026"
+description: "Encuentro de la Comunidad de OpenStreetMap de Argentina - 17 de octubre de 2026, Hub de Innovación de la Municipalidad de Pergamino"
+
+# Environment-based configuration
+baseurl: "" # default for custom domain
+url: "https://encuentro2026.openstreetmap.org.ar" # custom domain
+
+# GitHub Pages environment override
+github_pages:
+  baseurl: "/encuentro-2026"
+  url: "https://osm-ar.github.io"
+
+# Performance and SEO
+timezone: "America/Argentina/Buenos_Aires"
+lang: es-AR
+author: "OpenStreetMap Argentina"
+google_analytics: # Add Google Analytics ID if needed
+
+# Event details
+event:
+  name: "Encuentro OSM Argentina 2026"
+  subtitle: "Datos abiertos, territorio y comunidad"
+  date: "2026-10-17"
+  date_formatted: "sábado 17 de octubre de 2026"
+  date_short: "17 de octubre de 2026"
+  time: "09:00-17:00"
+  location: "Hub de Innovación · Municipalidad de Pergamino"
+  building: "Hub de Innovación"
+  address: "Joaquín Menéndez 738, Parque Belgrano, Pergamino, Buenos Aires"
+  coordinates: [-33.900194,-60.563730]
+
+# Coordinador (facilitador de consensos) chairman:
+chairman:
+  name: "Federico Gazaba"
+  osm_profile: "https://www.openstreetmap.org/user/Federico%20Gazaba"
+  experience: "281,616 ediciones OSM, activo desde 2014"
+  specialty: "Pergamino"
+
+# Links
+links:
+  osm_calendar: ""
+  wiki: ""
+  maproulette_project: ""
+  maproulette_lujan: ""
+  inscripcion_oficial: ""
+
+# Redes sociales OSM Argentina
+social:
+  # Canales activos
+  telegram: "https://t.me/osm_ar"
+  instagram: "https://www.instagram.com/OpenStreetMapAR/"
+  website: "https://openstreetmap.org.ar/"
+
+  # Canales adicionales
+  twitter: "https://twitter.com/OpenStreetMapAR"
+  facebook: "https://www.facebook.com/OpenStreetMapAR"
+  youtube: "https://www.youtube.com/channel/UCY8ecMiXarIiOmcR17Ng2tQ"
+  forum: "https://community.openstreetmap.org/c/communities/ar/"
+  mailing_list: "https://lists.openstreetmap.org/listinfo/talk-ar"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Locale
+locale: "es_AR"
+timezone: "America/Argentina/Buenos_Aires"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  casos_exito:
+    output: true
+    permalink: /casos-exito/:name/
+  programa:
+    output: true
+    permalink: /programa/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "casos_exito"
+    values:
+      layout: "caso-exito"
+  - scope:
+      path: ""
+      type: "programa"
+    values:
+      layout: "programa"
+
+# Include files that should be processed by Jekyll
+include:
+  - sw.js
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache

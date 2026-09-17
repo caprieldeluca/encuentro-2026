@@ -1,0 +1,28 @@
+---
+---
+
+// OSM Argentina 2025 - Estilos principales
+// Archivo principal que importa todos los parciales
+
+// 1. Abstracts - Variables, mixins y funciones
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// 2. Base - Reset, tipografía y estilos base
+@import 'base/accessibility';
+@import 'base/reset';
+
+// 3. Layout - Estructura principal del sitio
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+// 4. Components - Componentes reutilizables
+@import 'components/buttons';
+@import 'components/countdown';
+@import 'components/forms';
+@import 'components/sponsors';
+
+// 5. Pages - Estilos específicos de página
+@import 'pages/home';
+@import 'pages/flyer';
