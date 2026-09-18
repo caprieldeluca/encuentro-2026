@@ -103,11 +103,8 @@ Para contribuir al sitio web:
 ### 📊 Funcionalidades Implementadas Recientemente
 
 - ✅ **Countdown timer** - Contador regresivo hacia el evento en página principal
-- ✅ **Página venue** - Información completa de la sede UNLu
-- ✅ **Mapa interactivo OSM** - Marcadores de aulas con datos reales
-- ✅ **Logo OSM Argentina** - Marcador principal con branding oficial
-- ✅ **Leyenda del mapa** - Guía visual de todos los marcadores
-- ✅ **Navegación a venue** - Enlaces contextuales desde menciones UNLu
+- ✅ **Página venue** - Información completa de la sede (Hub de Innovación, Pergamino)
+- ✅ **Mapa interactivo OSM** - Embed de OpenStreetMap centrado en la sede
 - ✅ **URLs dominio personalizado** - encuentro2026.openstreetmap.org.ar
 
 ### 📊 Próximas Funcionalidades
