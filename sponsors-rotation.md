@@ -289,7 +289,7 @@ permalink: /sponsors-rotation/
         <!-- Slide 2: Kaart -->
         <div class="rotating-content" data-slide="1">
             <div class="sponsor-slide">
-                <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="sponsor-logo-large">
+                <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Kaart" class="sponsor-logo-large">
                 <h1 class="sponsor-title">Sponsor Oficial</h1>
                 <p class="sponsor-description">
                     Kaart es líder en tecnología de datos geoespaciales, especializados en OpenStreetMap con proyectos globales de cartografía y herramientas avanzadas de mapeo.
@@ -315,12 +315,12 @@ permalink: /sponsors-rotation/
             <h1 class="sponsor-title">Aliados Institucionales</h1>
             <div class="allies-grid">
                 <div class="ally-card">
-                    <img src="{{ '/assets/img/logo_unlu.png' | relative_url }}" alt="Universidad Nacional de Luján" class="ally-logo">
+                    <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Universidad Nacional de Luján" class="ally-logo">
                     <div class="ally-name">Universidad Nacional de Luján</div>
                     <div class="ally-description">Sede del encuentro • Apoyo institucional</div>
                 </div>
                 <div class="ally-card">
-                    <img src="{{ '/assets/img/logo_mapaeducativo.png' | relative_url }}" alt="Mapa Educativo" class="ally-logo">
+                    <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Mapa Educativo" class="ally-logo">
                     <div class="ally-name">Mapa Educativo</div>
                     <div class="ally-description">Plataforma educativa nacional</div>
                 </div>

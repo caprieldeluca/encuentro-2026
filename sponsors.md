@@ -160,7 +160,7 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2026
 <div class="recursos-casos">
   <div class="recurso-grupo">
     <h4>Colaboradores Principales</h4>
-    <a href="{{ site.event.location_url }}" target="_blank">{{ site.event.location }}</a>
+    <a href="{{ '/venue' | relative_url }}" target="_blank">{{ site.event.location }}</a>
     <a href="{{ site.links.wiki }}" target="_blank">OSM Argentina Wiki</a>
     <a href="{{ site.chairman.osm_profile }}" target="_blank">Coordinador OSM Profile</a>
   </div>

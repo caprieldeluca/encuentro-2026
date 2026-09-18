@@ -151,7 +151,7 @@ Las instrucciones y enlaces para participar de manera remota serán publicados p
 ## 🔗 Enlaces
 
 - **[Sede del encuentro]({{ '/venue' | relative_url }})**
-- **[Inscripción]({{ site.links.inscription }})**
+- **[Inscripción]({{ site.links.inscripcion_oficial }})**
 - **[Calendario OSM]({{ site.links.osm_calendar }})**
 - **[Wiki del evento]({{ site.links.wiki }})**
 

@@ -49,8 +49,8 @@ El evento se realizará en el {{ site.event.building }}, ubicado en {{ site.even
 
 Puedes consultar rutas completas en transporte público o acceso vehicular en nuestro [mapa interactivo]({{ '/' | relative_url }}#mapa-encuentro).
 
-**¿En qué aulas se realizará el evento?**
-Las actividades se desarrollarán en {% for classroom in site.event.classrooms %}{{ classroom.name }} ({{ classroom.floor }}){% unless forloop.last %} y {% endunless %}{% endfor %}.
+**¿En qué espacio se realizará el evento?**
+Todas las actividades se desarrollarán en el {{ site.event.building }}, un espacio único dentro del Parque Belgrano.
 
 **¿Hay estacionamiento disponible?**
 Sí, la universidad cuenta con estacionamiento gratuito para los asistentes.

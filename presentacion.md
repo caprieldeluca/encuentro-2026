@@ -440,7 +440,7 @@ permalink: /presentacion/
             <!-- Slide 4: Sponsor Oficial - Kaart -->
             <section>
                 <div class="sponsor-display">
-                    <img src="{{ '/assets/img/logo_kaart_official.svg' | relative_url }}" alt="Kaart" class="slide-logo-large">
+                    <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Kaart" class="slide-logo-large">
                     <h2>Sponsor Oficial</h2>
                     <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
                         Kaart es líder en tecnología de datos geoespaciales, especializados en OpenStreetMap con proyectos globales de cartografía y herramientas avanzadas de mapeo.
@@ -500,7 +500,7 @@ permalink: /presentacion/
                         <p style="font-size: 0.9rem;">Mapeo sistemático de infraestructura urbana con participación ciudadana. 2,246 ediciones oficiales.</p>
                     </div>
                     <div class="caso-item">
-                        <img src="{{ '/assets/img/logo_misiones.png' | relative_url }}" alt="Misiones" style="width: 60px; height: 60px;">
+                        <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Misiones" style="width: 60px; height: 60px;">
                         <h3 style="font-size: 1.3rem;">Programa Misiones</h3>
                         <p style="font-size: 1rem;"><strong>Capacitación gubernamental</strong></p>
                         <p style="font-size: 0.9rem;">Entrenamiento de 15+ organismos públicos en herramientas OSM durante 3 días intensivos.</p>
@@ -553,14 +553,14 @@ permalink: /presentacion/
                 <h2>🏢 Aliados Institucionales</h2>
                 <div class="aliados-grid">
                     <div class="aliado-item">
-                        <img src="{{ '/assets/img/logo_unlu.png' | relative_url }}" alt="Universidad Nacional de Luján" class="aliado-logo">
+                        <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Universidad Nacional de Luján" class="aliado-logo">
                         <div>
                             <h3>Universidad Nacional de Luján</h3>
                             <p>Sede del encuentro • Apoyo institucional</p>
                         </div>
                     </div>
                     <div class="aliado-item">
-                        <img src="{{ '/assets/img/logo_mapaeducativo.png' | relative_url }}" alt="Mapa Educativo" class="aliado-logo">
+                        <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Mapa Educativo" class="aliado-logo">
                         <div>
                             <h3>Mapa Educativo</h3>
                             <p>Plataforma educativa nacional</p>
