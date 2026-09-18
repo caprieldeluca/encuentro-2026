@@ -10,7 +10,7 @@ description: FAQ sobre el primer Encuentro de la Comunidad OpenStreetMap Argenti
 ### 🎫 **Inscripción y Participación**
 
 **¿Es necesario inscribirse para participar?**
-No, la inscripción no es obligatoria, pero la agradecemos mucho ya que nos ayuda con la organización del evento. Puedes registrarte en [{{ site.links.inscripcion_oficial }}]({{ site.links.inscripcion_oficial }}).
+No, la inscripción no es obligatoria, pero la agradecemos mucho ya que nos ayuda con la organización del evento. Puedes registrarte en el [formulario de inscripción]({{ site.links.inscripcion_oficial }}).
 
 **¿Hay costo de inscripción?**
 No, el evento es **completamente gratuito** para todos los participantes.

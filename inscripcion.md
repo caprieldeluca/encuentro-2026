@@ -34,7 +34,7 @@ subtitle: Registrate para el Encuentro OSM Argentina 2026
   <div class="formulario-container">
     <div class="formulario-alternativo">
       <p><strong>Formulario de inscripción</strong></p>
-      <p>El formulario oficial de inscripción estará disponible próximamente.</p>
+      <p>Completá tus datos en el formulario oficial:</p>
 
       {% if site.links.inscripcion_oficial %}
       <a href="{{ site.links.inscripcion_oficial }}" target="_blank" class="btn btn-primary btn-large">
