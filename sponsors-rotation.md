@@ -1,13 +1,13 @@
 ---
 layout: none
-title: "Sponsors y Aliados - Encuentro OSM Argentina 2025"
+title: "Sponsors y Aliados - Encuentro OSM Argentina 2026"
 permalink: /sponsors-rotation/
 ---
 <html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sponsors y Aliados - Encuentro OSM Argentina 2025</title>
+    <title>Sponsors y Aliados - Encuentro OSM Argentina 2026</title>
     <link rel="icon" type="image/png" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
 
@@ -261,8 +261,8 @@ permalink: /sponsors-rotation/
     <div class="event-header">
         <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="osm-logo">
         <div class="event-date">
-            27 SEPTIEMBRE 2025<br>
-            <small>OSM AR • LUJÁN</small>
+            17 OCTUBRE 2026<br>
+            <small>OSM AR • PERGAMINO</small>
         </div>
     </div>
 
@@ -286,38 +286,14 @@ permalink: /sponsors-rotation/
             </div>
         </div>
 
-        <!-- Slide 2: Kaart -->
+        <!-- Slide 2: Aliados Institucionales -->
         <div class="rotating-content" data-slide="1">
-            <div class="sponsor-slide">
-                <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Kaart" class="sponsor-logo-large">
-                <h1 class="sponsor-title">Sponsor Oficial</h1>
-                <p class="sponsor-description">
-                    Kaart es líder en tecnología de datos geoespaciales, especializados en OpenStreetMap con proyectos globales de cartografía y herramientas avanzadas de mapeo.
-                </p>
-                <div class="sponsor-hashtags">#Kaart #OSMExperts</div>
-            </div>
-        </div>
-
-        <!-- Slide 3: TomTom -->
-        <div class="rotating-content" data-slide="2">
-            <div class="sponsor-slide">
-                <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom" class="sponsor-logo-large">
-                <h1 class="sponsor-title">Sponsor Oficial</h1>
-                <p class="sponsor-description">
-                    TomTom es líder mundial en tecnologías de navegación y mapas, impulsando la movilidad con datos de mapas de alta calidad y servicios de localización innovadores.
-                </p>
-                <div class="sponsor-hashtags">#TomTom #TomTomCares</div>
-            </div>
-        </div>
-
-        <!-- Slide 4: Aliados Institucionales -->
-        <div class="rotating-content" data-slide="3">
             <h1 class="sponsor-title">Aliados Institucionales</h1>
             <div class="allies-grid">
                 <div class="ally-card">
-                    <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Universidad Nacional de Luján" class="ally-logo">
-                    <div class="ally-name">Universidad Nacional de Luján</div>
-                    <div class="ally-description">Sede del encuentro • Apoyo institucional</div>
+                    <img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Municipalidad de Pergamino" class="ally-logo">
+                    <div class="ally-name">Municipalidad de Pergamino</div>
+                    <div class="ally-description">Sede oficial • 10 años colaborando con OSM</div>
                 </div>
                 <div class="ally-card">
                     <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Mapa Educativo" class="ally-logo">
@@ -327,8 +303,8 @@ permalink: /sponsors-rotation/
             </div>
         </div>
 
-        <!-- Slide 5: Aliados Comunitarios -->
-        <div class="rotating-content" data-slide="4">
+        <!-- Slide 3: Aliados Comunitarios -->
+        <div class="rotating-content" data-slide="2">
             <h1 class="sponsor-title">Aliados Comunitarios</h1>
             <div class="allies-grid">
                 <div class="ally-card">
@@ -344,40 +320,40 @@ permalink: /sponsors-rotation/
             </div>
         </div>
 
-        <!-- Slide 6: Encuentro 2025 -->
-        <div class="rotating-content" data-slide="5">
+        <!-- Slide 4: Encuentro 2026 -->
+        <div class="rotating-content" data-slide="3">
             <div class="sponsor-slide">
-                <img src="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" alt="Encuentro OSM Argentina 2025" class="sponsor-logo-large" style="border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.3);">
-                <h1 class="sponsor-title">Encuentro OSM Argentina 2025</h1>
+                <img src="{{ '/assets/img/flyer_encuentro_oficial.jpg' | relative_url }}" alt="Encuentro OSM Argentina 2026" class="sponsor-logo-large" style="border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.3);">
+                <h1 class="sponsor-title">Encuentro OSM Argentina 2026</h1>
                 <p class="sponsor-description">
                     <strong>Encuentro nacional de la comunidad</strong><br><br>
-                    🤝 Tema: "Comunidad y Estado"<br>
+                    🤝 Tema: "Datos abiertos, territorio y comunidad"<br>
                     🗺️ Mapeo colaborativo y casos de éxito<br>
                     🏫 Proyecto Escuelas OSM<br>
                     🌐 Modalidad híbrida: presencial + virtual
                 </p>
                 <div class="sponsor-hashtags">
-                    #OSMArgentina2025 #EncuentroOSM<br>
-                    <small style="font-size: 0.7em;">🎯 ComunidadYEstado</small>
+                    #OSMArgentina2026 #EncuentroOSM<br>
+                    <small style="font-size: 0.7em;">🎯 #Pergamino</small>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 7: Información del Encuentro -->
-        <div class="rotating-content" data-slide="6">
+        <!-- Slide 5: Información del Encuentro -->
+        <div class="rotating-content" data-slide="4">
             <div class="sponsor-slide">
                 <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="sponsor-logo-large">
                 <h1 class="sponsor-title">¡Te Esperamos!</h1>
                 <p class="sponsor-description">
-                    <strong>Sábado 27 de Septiembre 2025</strong><br>
-                    Universidad Nacional de Luján<br>
-                    09:00 - 19:00 • Entrada libre y gratuita
+                    <strong>{{ site.event.date_formatted }}</strong><br>
+                    {{ site.event.location }}<br>
+                    {{ site.event.time }} • Entrada libre y gratuita
                 </p>
                 <div class="sponsor-hashtags">
-                    encuentro2025.openstreetmap.org.ar<br>
+                    {{ site.url }}<br>
                     <small style="font-size: 0.7em;">📱 t.me/osm_ar</small><br>
                     <small style="font-size: 0.6em; opacity: 0.8; margin-top: 0.5rem; display: block;">
-                        🗺️ La Plata (jul) → Luján (sep) → SOTM Argentina 2026
+                        🗺️ La Plata (jul 2025) → Luján (sep 2025) → Pergamino (oct 2026)
                     </small>
                 </div>
             </div>
@@ -388,8 +364,6 @@ permalink: /sponsors-rotation/
     <!-- Indicador de progreso -->
     <div class="progress-indicator">
         <div class="progress-dot active"></div>
-        <div class="progress-dot"></div>
-        <div class="progress-dot"></div>
         <div class="progress-dot"></div>
         <div class="progress-dot"></div>
         <div class="progress-dot"></div>

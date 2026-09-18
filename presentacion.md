@@ -1,6 +1,6 @@
 ---
 layout: none
-title: "Presentación Encuentro OSM Argentina 2025"
+title: "Presentación Encuentro OSM Argentina 2026"
 permalink: /presentacion/
 ---
 <!DOCTYPE html>
@@ -8,7 +8,7 @@ permalink: /presentacion/
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentación - Encuentro OSM Argentina 2025</title>
+    <title>Presentación - Encuentro OSM Argentina 2026</title>
     <link rel="icon" type="image/png" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/img/osm-ar-logo.png' | relative_url }}">
     
@@ -360,7 +360,7 @@ permalink: /presentacion/
         <div class="event-logo">
             <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina">
         </div>
-        <div class="event-date">27 SEP 2025<br>OSM AR • LUJÁN</div>
+        <div class="event-date">17 OCT 2026<br>OSM AR • PERGAMINO</div>
     </div>
 
     <div class="reveal">
@@ -369,13 +369,13 @@ permalink: /presentacion/
             <!-- Slide 1: Bienvenida -->
             <section>
                 <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="slide-logo">
-                <h1>Encuentro OSM Argentina 2025</h1>
-                <h2>Comunidad y Estado</h2>
+                <h1>Encuentro OSM Argentina 2026</h1>
+                <h2>Datos abiertos, territorio y comunidad</h2>
                 <div class="large-text">
-                    <p>📅 Sábado 27 de septiembre de 2025</p>
-                    <p>📍 Universidad Nacional de Luján</p>
-                    <p>🕘 09:00 - 19:00</p>
-                    <p style="color: #F4C430; font-size: 1rem; margin-top: 1rem;">🎊 14 slides - Presentación automática</p>
+                    <p>📅 {{ site.event.date_formatted }}</p>
+                    <p>📍 {{ site.event.location }}</p>
+                    <p>🕘 {{ site.event.time }}</p>
+                    <p style="color: #F4C430; font-size: 1rem; margin-top: 1rem;">🎊 Presentación automática</p>
                 </div>
             </section>
 
@@ -384,29 +384,29 @@ permalink: /presentacion/
                 <h2>🎯 Programa del Día</h2>
                 <div class="info-grid">
                     <div class="info-item">
-                        <div class="programa-time">09:00 - 10:30</div>
-                        <h3>Recepción y Bienvenida</h3>
-                        <p>Registro de participantes • Networking inicial</p>
+                        <div class="programa-time">09:00 - 09:15</div>
+                        <h3>Acreditación</h3>
+                        <p>Registro de participantes</p>
                     </div>
                     <div class="info-item">
-                        <div class="programa-time">10:30 - 12:00</div>
-                        <h3>Casos de Éxito</h3>
-                        <p>Pergamino • Misiones • IDERA</p>
+                        <div class="programa-time">09:15 - 10:45</div>
+                        <h3>Sinergia institucional y charlas</h3>
+                        <p>Municipalidad de Pergamino + OSM • Casos de Valdivia y Luján</p>
                     </div>
                     <div class="info-item">
-                        <div class="programa-time">12:00 - 14:00</div>
-                        <h3>Almuerzo</h3>
-                        <p>🍽️ Lo de Rami • Coffee breaks disponibles</p>
+                        <div class="programa-time">10:45 - 13:30</div>
+                        <h3>Taller de edición básica</h3>
+                        <p>Break / café • Break / almuerzo</p>
                     </div>
                     <div class="info-item">
-                        <div class="programa-time">14:00 - 18:00</div>
+                        <div class="programa-time">13:30 - 15:30</div>
+                        <h3>Talleres de datos</h3>
+                        <p>Descarga y uso de datos OSM en QGIS</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="programa-time">15:30 - 17:00</div>
                         <h3>Mapatón Escuelas OSM</h3>
                         <p>Mapeo colaborativo de centros educativos</p>
-                    </div>
-                    <div class="info-item">
-                        <div class="programa-time">18:00 - 19:00</div>
-                        <h3>Cierre y Próximos Pasos</h3>
-                        <p>Reflexiones • Planificación futura</p>
                     </div>
                 </div>
             </section>
@@ -437,59 +437,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 4: Sponsor Oficial - Kaart -->
-            <section>
-                <div class="sponsor-display">
-                    <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Kaart" class="slide-logo-large">
-                    <h2>Sponsor Oficial</h2>
-                    <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
-                        Kaart es líder en tecnología de datos geoespaciales, especializados en OpenStreetMap con proyectos globales de cartografía y herramientas avanzadas de mapeo.
-                    </p>
-                    <div class="sponsor-metrics">
-                        <div class="metric">
-                            <span class="metric-icon">📍</span>
-                            <span class="metric-label">OpenStreetMap</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-icon">🤖</span>
-                            <span class="metric-label">Tecnología Avanzada</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-icon">🌎</span>
-                            <span class="metric-label">Proyectos Globales</span>
-                        </div>
-                    </div>
-                    <p class="hashtags">#Kaart #OSMExperts</p>
-                </div>
-            </section>
-
-            <!-- Slide 5: Sponsor Oficial - TomTom -->
-            <section>
-                <div class="sponsor-display">
-                    <img src="{{ '/assets/img/logo_tomtom.svg' | relative_url }}" alt="TomTom" class="slide-logo-large">
-                    <h2>Sponsor Oficial</h2>
-                    <p style="font-size: 1.4rem; line-height: 1.6; max-width: 800px; margin: 0 auto;">
-                        TomTom es líder mundial en tecnologías de navegación y mapas, impulsando la movilidad con datos de mapas de alta calidad y servicios de localización innovadores.
-                    </p>
-                    <div class="sponsor-metrics">
-                        <div class="metric">
-                            <span class="metric-icon">💼</span>
-                            <span class="metric-label">Tecnología Global</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-icon">🌍</span>
-                            <span class="metric-label">Presencia Mundial</span>
-                        </div>
-                        <div class="metric">
-                            <span class="metric-icon">🗺️</span>
-                            <span class="metric-label">Innovación en Mapas</span>
-                        </div>
-                    </div>
-                    <p class="hashtags">#TomTom #TomTomCares</p>
-                </div>
-            </section>
-
-            <!-- Slide 6: Casos de Éxito - Parte 1 -->
+            <!-- Slide 4: Casos de Éxito - Parte 1 -->
             <section>
                 <h2>🏆 Casos de Éxito: Comunidad y Estado</h2>
                 <div class="casos-grid" style="grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
@@ -508,7 +456,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 7: Casos de Éxito - Parte 2 -->
+            <!-- Slide 5: Casos de Éxito - Parte 2 -->
             <section>
                 <h2>🏆 Casos de Éxito: Infraestructura</h2>
                 <div class="casos-grid" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto;">
@@ -522,7 +470,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 7: Proyecto Escuelas -->
+            <!-- Slide 6: Proyecto Escuelas -->
             <section>
                 <h2>🏫 Proyecto Escuelas OSM</h2>
                 <div class="proyecto-container">
@@ -548,15 +496,15 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 8: Nuestros Aliados - Institucionales -->
+            <!-- Slide 7: Nuestros Aliados - Institucionales -->
             <section>
                 <h2>🏢 Aliados Institucionales</h2>
                 <div class="aliados-grid">
                     <div class="aliado-item">
-                        <img src="{{ '/assets/img/osm-noimage.svg' | relative_url }}" alt="Universidad Nacional de Luján" class="aliado-logo">
+                        <img src="{{ '/assets/img/logo_pergamino.png' | relative_url }}" alt="Municipalidad de Pergamino" class="aliado-logo">
                         <div>
-                            <h3>Universidad Nacional de Luján</h3>
-                            <p>Sede del encuentro • Apoyo institucional</p>
+                            <h3>Municipalidad de Pergamino</h3>
+                            <p>Sede oficial • 10 años colaborando con OSM</p>
                         </div>
                     </div>
                     <div class="aliado-item">
@@ -569,7 +517,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 9: Nuestros Aliados - Comunidades -->
+            <!-- Slide 8: Nuestros Aliados - Comunidades -->
             <section>
                 <h2>👥 Aliados Comunitarios</h2>
                 <div class="aliados-grid">
@@ -592,7 +540,7 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 10: Alimentación y Logística -->
+            <!-- Slide 9: Alimentación y Logística -->
             <section>
                 <h2>🍽️ Alimentación y Descansos</h2>
                 <div class="info-grid">
@@ -601,35 +549,26 @@ permalink: /presentacion/
                         <p><strong>Incluidos en el evento</strong></p>
                         <p>Pausas programadas durante la jornada</p>
                     </div>
-                    <div class="info-item" style="text-align: center;">
-                        <img src="{{ '/assets/img/lo_de_rami.jpg' | relative_url }}" alt="Lo de Rami" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 1rem; object-fit: cover; border: 3px solid #F4C430;">
+                    <div class="info-item">
                         <h3>🍽️ Almuerzo</h3>
-                        <p><strong>Lo de Rami</strong></p>
-                        <p>Restaurante recomendado en la zona</p>
-                        <p style="color: #F4C430;">🔗 <a href="https://www.openstreetmap.org/way/684683865" target="_blank" style="color: #F4C430;">Ver en OSM</a></p>
+                        <p><strong>Break / Almuerzo</strong></p>
+                        <p>Oferta gastronómica en Parque Belgrano y el centro de Pergamino</p>
                     </div>
                     <div class="info-item">
                         <h3>☕ Disponibilidad</h3>
-                        <p><strong>12:00 - 14:00</strong></p>
+                        <p><strong>12:30 - 13:30</strong></p>
                         <p>Horario de almuerzo libre</p>
-                        <p>Opciones gastronómicas en la zona universitaria</p>
-                    </div>
-                    <div class="info-item">
-                        <h3>🗺️ Mapeo Colaborativo</h3>
-                        <p><strong>Coordina: Andrés Duhour</strong></p>
-                        <p>Lugar mapeado por nuestro coordinador</p>
-                        <p>¡Un ejemplo de OSM en acción!</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Slide 11: Participación -->
+            <!-- Slide 10: Participación -->
             <section>
                 <h2>🚀 ¡Participa del Encuentro!</h2>
                 <div class="info-grid" style="margin: 3rem 0;">
                     <div class="info-item">
                         <h3>🏢 Modalidad Presencial</h3>
-                        <p>Universidad Nacional de Luján</p>
+                        <p>{{ site.event.location }}</p>
                         <p class="highlight">Cupos limitados</p>
                     </div>
                     <div class="info-item">
@@ -640,7 +579,7 @@ permalink: /presentacion/
                 </div>
                 <div style="text-align: center;">
                     <h3>📝 Inscripción Gratuita</h3>
-                    <p class="large-text highlight">🔗 tinyurl.com/osm-lujan</p>
+                    <p class="large-text highlight">🔗 {{ site.url }}{{ '/registro' | relative_url }}</p>
                     <div class="contact-info">
                         <p>📱 Telegram: @osm_ar</p>
                         <p>📸 Instagram: @OpenStreetMapAR</p>
@@ -648,53 +587,44 @@ permalink: /presentacion/
                 </div>
             </section>
 
-            <!-- Slide 12: Coordinador -->
+            <!-- Slide 11: Coordinador -->
             <section>
                 <h2>👨‍💼 Coordinación del Evento</h2>
                 <div class="coordinador-container">
                     <div style="position: relative; width: 200px; height: 200px; margin: 0 auto;">
-                        <img src="{{ '/assets/img/andres.github.jpeg' | relative_url }}" alt="Andrés Duhour" style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #F4C430; position: relative; z-index: 2; object-fit: cover;">
+                        <img src="{{ '/assets/img/federico_gazaba.jpg' | relative_url }}" alt="{{ site.chairman.name }}" style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid #F4C430; position: relative; z-index: 2; object-fit: cover;">
                         <div style="position: absolute; top: -10px; right: -10px; width: 60px; height: 60px; background: rgba(255,255,255,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 3px solid #2E5C8A; z-index: 3;">
                             <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" style="width: 40px; height: 40px; border-radius: 50%;">
                         </div>
                         <div style="position: absolute; bottom: -5px; left: -5px; background: rgba(244, 196, 48, 0.9); padding: 3px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: bold; color: #2E5C8A; z-index: 3;">
-                            🎆 OSM AR 2025
+                            🎆 OSM AR 2026
                         </div>
                     </div>
                     <div>
-                        <h3 style="font-size: 1.6rem;">Andrés Duhour</h3>
+                        <h3 style="font-size: 1.6rem;">{{ site.chairman.name }}</h3>
                         <p style="font-size: 1.2rem;">Coordinador General</p>
-                        <div class="coordinador-stats">
-                            <div class="stat">
-                                <span class="stat-number">19,204+</span>
-                                <span class="stat-label">ediciones OSM</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">10+</span>
-                                <span class="stat-label">años de experiencia</span>
-                            </div>
-                        </div>
-                        <p style="font-size: 1rem;">🌊 <strong>Especialidad:</strong> Cuenca del Río Luján, osmlanduseR</p>
-                        <p style="font-size: 0.9rem; color: #F4C430;">🔗 openstreetmap.org/user/AndresDuhour</p>
+                        <p style="font-size: 1rem;">{{ site.chairman.experience }}</p>
+                        <p style="font-size: 1rem;">📍 <strong>Especialidad:</strong> {{ site.chairman.specialty }}</p>
+                        <p style="font-size: 0.9rem; color: #F4C430;">🔗 <a href="{{ site.chairman.osm_profile }}" target="_blank" style="color: #F4C430;">{{ site.chairman.osm_profile }}</a></p>
                     </div>
                 </div>
             </section>
 
-            <!-- Slide 13: Información Final -->
+            <!-- Slide 12: Información Final -->
             <section>
                 <img src="{{ '/assets/img/osm-ar-logo.png' | relative_url }}" alt="OSM Argentina" class="slide-logo">
                 <h1>¡Te Esperamos!</h1>
                 <div class="large-text">
-                    <p class="highlight">📅 Sábado 27 de septiembre de 2025</p>
-                    <p>📍 Universidad Nacional de Luján</p>
-                    <p>🕘 09:00 - 19:00 • Entrada libre y gratuita</p>
+                    <p class="highlight">📅 {{ site.event.date_formatted }}</p>
+                    <p>📍 {{ site.event.location }}</p>
+                    <p>🕘 {{ site.event.time }} • Entrada libre y gratuita</p>
                 </div>
                 <div class="contact-info">
-                    <p>🌐 <strong>Información:</strong> encuentro2025.openstreetmap.org.ar</p>
-                    <p>📝 <strong>Inscripción:</strong> tinyurl.com/osm-lujan</p>
+                    <p>🌐 <strong>Información:</strong> {{ site.url }}</p>
+                    <p>📝 <strong>Inscripción:</strong> {{ site.url }}{{ '/registro' | relative_url }}</p>
                     <p>📱 <strong>Comunidad:</strong> t.me/osm_ar</p>
                     <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.8;">
-                        🗺️ Continuidad: La Plata (jul 2025) → Luján (sep 2025) → SOTM Argentina 2026
+                        🗺️ Continuidad: La Plata (jul 2025) → Luján (sep 2025) → Pergamino (oct 2026)
                     </p>
                 </div>
             </section>
@@ -747,7 +677,7 @@ permalink: /presentacion/
         
         // Eventos personalizados
         Reveal.on('ready', function() {
-            console.log('Presentación OSM Argentina 2025 iniciada');
+            console.log('Presentación OSM Argentina 2026 iniciada');
             console.log('Controles:');
             console.log('- Flechas: Navegación manual');
             console.log('- Barra espaciadora: Pausar/Reanudar');
