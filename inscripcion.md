@@ -40,6 +40,7 @@ subtitle: Registrate para el Encuentro OSM Argentina 2026
       <a href="{{ site.links.inscripcion_oficial }}" target="_blank" class="btn btn-primary btn-large">
         📝 Abrir Formulario de Inscripción
       </a>
+      <p><small>¿Preferís completarlo sin salir del sitio? <a href="{{ '/registro' | relative_url }}">Usá el formulario embebido</a>.</small></p>
       {% endif %}
     </div>
   </div>

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Preguntas Frecuentes
-subtitle: Respuestas a las consultas más comunes sobre el Encuentro OSM Argentina 2025
-description: FAQ sobre el primer Encuentro de la Comunidad OpenStreetMap Argentina en Luján
+subtitle: Respuestas a las consultas más comunes sobre el Encuentro OSM Argentina 2026
+description: FAQ sobre el primer Encuentro de la Comunidad OpenStreetMap Argentina en Pergamino
 ---
 
 ## ❓ Preguntas Frecuentes
@@ -42,24 +42,20 @@ No es necesario. Habrá actividades para principiantes y usuarios avanzados. ¡E
 
 ### 📍 **Logística del Evento**
 
-**¿Cómo llego a la Universidad Nacional de Luján?**
-El evento se realizará en el {{ site.event.building }}, ubicado en {{ site.event.address }}.
-
-**Transporte público:** Tren desde CABA hasta Estación Universidad de Luján - Línea Sarmiento.
-
-Puedes consultar rutas completas en transporte público o acceso vehicular en nuestro [mapa interactivo]({{ '/' | relative_url }}#mapa-encuentro).
+**¿Cómo llego al Hub de Innovación?**
+El evento se realizará en el {{ site.event.building }}, ubicado en {{ site.event.address }} (Parque Belgrano, Pergamino). Podés consultar la ubicación exacta en nuestro [mapa interactivo]({{ '/' | relative_url }}#mapa-encuentro) o en la [página de la sede]({{ '/venue' | relative_url }}).
 
 **¿En qué espacio se realizará el evento?**
 Todas las actividades se desarrollarán en el {{ site.event.building }}, un espacio único dentro del Parque Belgrano.
 
 **¿Hay estacionamiento disponible?**
-Sí, la universidad cuenta con estacionamiento gratuito para los asistentes.
+Estamos confirmando la disponibilidad de estacionamiento en la zona junto a la Municipalidad. Si tenés dudas puntuales, contactanos antes del evento.
 
 **¿Se proporciona almuerzo?**
-El evento incluye coffee breaks. Para el almuerzo, recomendamos **Lo de Rami** (restaurante en la zona) y otras opciones gastronómicas disponibles en el área universitaria. Puedes ver la ubicación de Lo de Rami en [OpenStreetMap](https://www.openstreetmap.org/way/684683865).
+El evento incluye coffee breaks. Para el almuerzo, la zona de Parque Belgrano y el centro de Pergamino cuentan con oferta gastronómica variada.
 
 **¿Hay facilidades para personas con discapacidad?**
-Sí, la sede cuenta con accesibilidad para personas con movilidad reducida. Si tienes necesidades específicas, contáctanos con anticipación.
+Estamos coordinando con la Municipalidad de Pergamino las condiciones de accesibilidad del Hub de Innovación. Si tenés necesidades específicas, contactanos con anticipación para poder coordinarlo.
 
 ---
 
@@ -72,7 +68,7 @@ Sí, la sede cuenta con accesibilidad para personas con movilidad reducida. Si t
 - Bloc de notas
 
 **¿Habrá WiFi disponible?**
-Sí, la universidad proporciona conexión WiFi gratuita para todos los participantes.
+Está previsto contar con conexión WiFi en el espacio. Como backup, te recomendamos traer datos móviles.
 
 **¿Qué software necesito instalar?**
 Para el mapatón usaremos editores web (no requieren instalación). Si quieres prepararte, puedes crear una cuenta en [openstreetmap.org](https://openstreetmap.org).
@@ -114,8 +110,8 @@ Argentina tiene experiencias únicas de colaboración entre organismos públicos
 
 **¿Trabajo en el estado, me sirve asistir?**
 ¡Absolutamente! Verás casos concretos como:
-- [Municipalidad de Pergamino]({{ '/casos-exito' | relative_url }}) (10 años de colaboración)
-- [Programa Misiones]({{ '/casos-exito' | relative_url }}) (capacitación gubernamental)
+- [Municipalidad de Pergamino]({{ '/casos-exito' | relative_url }}#pergamino) (10 años de colaboración)
+- [Programa Misiones]({{ '/casos-exito' | relative_url }}#misiones) (capacitación gubernamental)
 - Integración con datos oficiales (IDERA, Mapa Educativo)
 
 ---
@@ -181,7 +177,9 @@ Este es el primer encuentro nacional. Según la respuesta, planificamos hacer ev
       <ul>
         <li><a href="https://www.openstreetmap.org/edit" target="_blank">Editor iD (web)</a></li>
         <li><a href="https://josm.openstreetmap.de/" target="_blank">JOSM (desktop)</a></li>
-        <li><a href="{{ site.links.maproulette_lujan }}" target="_blank">MapRoulette Luján</a></li>
+        {% if site.links.maproulette_project %}
+        <li><a href="{{ site.links.maproulette_project }}" target="_blank">MapRoulette Proyecto Escuelas</a></li>
+        {% endif %}
         <li><a href="https://overpass-turbo.eu/" target="_blank">Overpass Turbo</a></li>
       </ul>
     </div>
