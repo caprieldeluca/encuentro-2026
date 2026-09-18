@@ -7,8 +7,13 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2026
 <!-- Premium Sponsors Section -->
 <div class="sponsors-premium">
   <h3>⭐ Sponsors Principales</h3>
+  <div class="sponsors-premium-grid">
+    {% for sponsor in site.data.sponsors_premium %}
+      {% include sponsor-flip-card.html sponsor=sponsor %}
+    {% endfor %}
+  </div>
   <div class="sponsors-premium-call">
-    <p>Todavía no tenemos sponsors principales confirmados para el Encuentro OSM Argentina 2026. ¿Tu organización quiere ser la primera?</p>
+    <p>¿Tu organización quiere sumarse como sponsor principal del Encuentro OSM Argentina 2026?</p>
     <a href="{{ site.links.wiki }}" target="_blank" class="btn btn-primary">📧 Quiero ser sponsor principal</a>
   </div>
 </div>
