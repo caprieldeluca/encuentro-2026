@@ -2,7 +2,7 @@
 layout: page
 title: Preguntas Frecuentes
 subtitle: Respuestas a las consultas más comunes sobre el Encuentro OSM Argentina 2026
-description: FAQ sobre el primer Encuentro de la Comunidad OpenStreetMap Argentina en Pergamino
+description: FAQ sobre el Encuentro de la Comunidad OpenStreetMap Argentina 2026 en Pergamino
 ---
 
 ## ❓ Preguntas Frecuentes
@@ -130,7 +130,7 @@ Sí, seguimos el [código de conducta detallado]({{ '/participar' | relative_url
 ¡Sí! Siempre necesitamos ayuda con logística, documentación y soporte técnico. Contáctanos por Telegram.
 
 **¿Habrá más encuentros?**
-Este es el primer encuentro nacional. Según la respuesta, planificamos hacer eventos anuales y encuentros regionales.
+Sí. Este encuentro continúa más de 10 años de encuentros y SOTM de la comunidad OSM Argentina, y seguimos planificando eventos anuales y encuentros regionales.
 
 ---
 

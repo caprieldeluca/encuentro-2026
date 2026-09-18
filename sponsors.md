@@ -74,8 +74,8 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2026
   <div class="metrica-card">
     <div class="metrica-icon">🚀</div>
     <div class="metrica-content">
-      <div class="numero">1</div>
-      <div class="label">Encuentro inaugural<br><span class="sublabel">OSM Argentina</span></div>
+      <div class="numero">10+</div>
+      <div class="label">Años de encuentros<br><span class="sublabel">SOTM Argentina</span></div>
     </div>
   </div>
 
@@ -182,6 +182,6 @@ subtitle: Organizaciones que hacen posible el Encuentro OSM Argentina 2026
 
 <div class="casos-footer">
   <h3>🎖️ Red de Colaboración Consolidada</h3>
-  <p><strong>El Encuentro OSM Argentina 2026 representa la primera articulación formal entre comunidad, academia y estado en mapeo colaborativo nacional.</strong></p>
+  <p><strong>El Encuentro OSM Argentina 2026 continúa más de 10 años de encuentros de la comunidad, profundizando la articulación entre comunidad, academia y estado en mapeo colaborativo nacional.</strong></p>
   <p>Estos vínculos sientan las bases para el crecimiento sostenible de OpenStreetMap en Argentina.</p>
 </div>
